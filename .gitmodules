@@ -1,0 +1,3 @@
+[submodule "robin-bot"]
+	path = robin-bot
+	url = https://github.com/morganlutz/robin-bot.git
