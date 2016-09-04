@@ -1,0 +1,20 @@
+{
+  "name": "Slackbots",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "/usr/bin/env PATH='$PATH:/usr/local/bin' /usr/bin/env TZ='America/Los_Angeles' /usr/bin/env NODE_ENV='development' node app"
+  },
+  "dependencies": {
+    "morgan": "~1.7.0",
+    "file-stream-rotator": "~0.0.6",
+    "body-parser": "~1.15.2",
+    "object.entries": "~1.0.3",
+    "redis": "~2.6.2",
+    "botkit": "~0.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-config-google": "^0.6.0"
+  }
+}
