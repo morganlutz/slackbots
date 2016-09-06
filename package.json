@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "/usr/bin/env PATH='$PATH:/usr/local/bin' /usr/bin/env TZ='America/Los_Angeles' /usr/bin/env NODE_ENV='development' node app"
+    "start": "node app"
   },
   "dependencies": {
     "morgan": "~1.7.0",
